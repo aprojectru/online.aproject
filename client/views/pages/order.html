@@ -1,0 +1,27 @@
+<template name='order'>
+  <div class="ui vertical segment">
+  <div class="ui text container">
+  <h1>Форма запроса</h1>
+<form class="ui form" id='new-order'>
+  <div class="field">
+    <label>Раздел проектирования</label>
+    <select multiple="" class="ui dropdown">
+      <option value="">Выберете раздел проектной документации</option>
+      <option value="AF">Afghanistan</option>
+      <option value="AX">Åland Islands</option>
+      <option value="AL">Albania</option>
+    </select>
+  </div>
+  <div class="field">
+  <label>Краткое описание задачи</label>
+  <textarea></textarea>
+  </div>
+  <div class="field">
+    <label>Телефон для связи</label>
+    <input type="text" name="mobile" international-phone-number preferred-countries="pl, de" placeholder="+79210000000">
+  </div>
+  <button class="ui button" type="submit">Отправить</button>
+</form>
+</div>
+</div>
+</template>
