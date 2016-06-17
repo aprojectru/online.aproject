@@ -12,7 +12,6 @@ arillo:flow-router-helpers
 kadira:flow-router
 useraccounts:semantic-ui
 useraccounts:flow-routing
-standard-minifiers
 flemay:less-autoprefixer
 jquery
 ecmascript
@@ -21,3 +20,5 @@ aldeed:autoform
 fabienb4:autoform-semantic-ui
 okgrow:router-autoscroll
 erasaur:meteor-lodash
+standard-minifier-css
+standard-minifier-js

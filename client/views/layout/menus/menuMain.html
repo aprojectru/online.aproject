@@ -7,10 +7,10 @@
       {{> menuLinks}}
       <div class="right item">
         {{#if currentUser}}
-          <a class="ui inverted button logout">Log Out</a>
+          <a class="ui inverted button logout">Выход</a>
         {{else}}
-          <a class='{{isActiveRoute "atSignIn"}} ui inverted button' href='{{pathFor "atSignIn"}}'>Log in</a>
-          <a class='{{isActiveRoute "atSignUp"}} ui inverted button' href='{{pathFor "atSignUp"}}'>Sign Up</a>
+          <a class='{{isActiveRoute "atSignIn"}} ui inverted button' href='{{pathFor "atSignIn"}}'>Вход</a>
+          <a class='{{isActiveRoute "atSignUp"}} ui inverted button' href='{{pathFor "atSignUp"}}'>Аккредитация</a>
         {{/if}}
       </div>
     </div>
